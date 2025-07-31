@@ -190,3 +190,45 @@ body {
   padding: 1rem;
   font-size: 0.9rem;
 }
+
+/* Track details and lyrics */
+.track-details {
+  margin-bottom: 2rem;
+}
+
+.track-details h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.track-details p {
+  margin-bottom: 0.5rem;
+  color: var(--dark-text);
+}
+
+.track-details details {
+  background-color: var(--light-bg);
+  border: 1px solid #e5e9ef;
+  border-radius: 4px;
+  padding: 0.5rem 0.8rem;
+}
+
+.track-details summary {
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--primary-color);
+  list-style: none;
+}
+
+.track-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.track-details pre {
+  white-space: pre-wrap;
+  font-family: inherit;
+  margin-top: 0.5rem;
+  color: var(--dark-text);
+  line-height: 1.5;
+}
